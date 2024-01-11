@@ -15,7 +15,7 @@ key_features:
   feature_list:
     - icon: "map"  #icon package react-feather-icon [https://feathericons.com/]
       title: Computerhilfe
-      content: Text Computerhilfe 2
+      content: Text Computerhilfe 7
     - icon: "lock"  #icon package react-feather-icon [https://feathericons.com/]
       title: Handy Hilfe
       content: Text Handyhilfe
