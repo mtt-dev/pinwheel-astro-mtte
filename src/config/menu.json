@@ -5,8 +5,12 @@
       "url": "/"
     },
     {
-      "name": "About",
+      "name": "Unser Team",
       "url": "/about"
+    },
+    {
+      "name": "Elements",
+      "url": "/elements"
     },
     {
       "name": "Blog",

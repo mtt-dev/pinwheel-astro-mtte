@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Zahnarztpraxis Dr. Nadine Handschuck in Ohrdruf/Thüringen">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      margin: 0;
+      padding: 0;
+    }
+    .white-space {
+      width: 100%;
+      height: 150px;
+      background-color: white;
+    }
+    .banner {
+      width: 100%;
+      background-image: url('/images/banner_02.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+    }
+    .contact-box {
+      background-color: #2c5282;
+      color: white;
+      max-width: 330px;
+      width: 100%;
+      font-size: 14px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      padding: 16px;
+      position: absolute;
+      right: 10%;
+      top: 130px;
+    }
+    .visible-on-mobile {
+        display: none; /* Standardmäßig versteckt */
+    }
+
+
+    /* Responsive Design Anpassungen */
+    @media screen and (max-width: 768px) {
+      .contact-box {
+        position: static; /* Änderung auf statische Positionierung */
+        width: auto; /* Automatische Breitenanpassung */
+        max-width: 100%; /* Maximale Breite auf 100% setzen */
+        margin: 20px 10px; /* Anpassung der Randabstände, um Überlappung zu verhindern */
+        box-sizing: border-box; /* Stellt sicher, dass Padding und Border innerhalb der Breite enthalten sind */
+      }
+      .banner {
+        background-image: url('/images/banner_03.jpg'); /* Anderes Banner für mobile Ansicht */
+        height: 300px; /* Festgelegte Höhe für Banner beibehalten */
+      }
+      .white-space {
+        height: 100px; /* Angepasste Höhe für kleinere Bildschirme */
+      }
+      .hidden-on-mobile {
+            display: none; /* Versteckt auf mobilen Geräten */
+        }
+      .visible-on-mobile {
+          display: inline; /* Sichtbar auf mobilen Geräten */
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="white-space">
+    <!-- Weißer Bereich über dem Banner -->
+  </div>
+  <div class="banner">
+    <!-- Banner-Bereich -->
+  </div>
+  <div class="contact-box">
+    <div class="content">
+      <div class="header">KONTAKT</div>
+      <p>
+        Zahnarztpraxis<br>
+        Dr. Nadine Handschuck<br>
+        Clara-Zetkin-Straße 6a<br>
+        99885 Ohrdruf/Thüringen
+      </p>
+      <p>
+        Telefon: <span class="hidden-on-mobile">0 36 24 / 31 15 83</span>
+        <a href="tel:03624311583" class="visible-on-mobile">0 36 24 / 31 15 83</a>
+        <br>
+        Telefax: 0 36 24 / 31 15 38
+      </p>
+      <div class="sub-header">ÖFFNUNGSZEITEN</div>
+      <table>
+        <tr>
+          <td>Mo</td>
+          <td>8 - 12 Uhr / 14 - 19 Uhr</td>
+        </tr>
+        <tr>
+          <td>Di</td>
+          <td>8 - 12 Uhr / 14 - 17 Uhr</td>
+        </tr>
+        <tr>
+          <td>Mi</td>
+          <td>8 - 12 Uhr</td>
+        </tr>
+        <tr>
+          <td>Do</td>
+          <td>8 - 12 Uhr / 14 - 19 Uhr</td>
+        </tr>
+        <tr>
+          <td>Fr</td>
+          <td>8 - 12 Uhr</td>
+        </tr>
+      </table>
+    </div>
+    <div class="footer">
+      <a href="#" aria-label="Wegbeschreibung zur Zahnarztpraxis">Ihr Weg zu uns</a>
+      <a href="#" aria-label="Anfrage per E-Mail">Anfrage per E-Mail</a>
+    </div>
+  </div>
+</body>
+</html>

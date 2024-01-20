@@ -1,48 +1,44 @@
 ---
 banner:
-  title: "Scale design & dev operations with Avocode Enterprise"
-  content: "A fully integrated suite of authentication & authoriz products, Stytch’s platform removes the headache of."
+  title: "ComputerCoach - Unterricht und Nachhilfe für Senioren"
+  content: "Persönliche Computerhilfe und Coaching, speziell für Senioren zugeschnitten. Bei Ihnen zu Hause oder Online."
   image: /images/banner-img.png
   button:
-    label: Download The Theme
-    link: "https://themefisher.com/astro-themes/pinwheel-astro"
+    label: Zur Terminvereinbarung
+    link: "https://calendly.com/mariogratz"
     enable: true
 
 ##key features
 key_features:
-  title: "The Highlighting Part Of Our Solution"
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
+  title: "Unser Angebot: Technik leicht gemacht für Senioren"
+  description: Individuelle Technikbetreuung und -schulungen, speziell für Senioren, mit Zufriedenheitsgarantie und 24h Antwortzeit.
   feature_list:
-    - icon: "map"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Computerhilfe
-      content: Text Computerhilfe 9
-    - icon: "lock"  #icon package react-feather-icon [https://feathericons.com/]
+    - icon: "tablet"  #icon package react-feather-icon [https://feathericons.com/]
+      title: Computer Hilfe
+      content: Übernahme von technischen Aufgaben und Einrichtungen.
+    - icon: "smartphone"  #icon package react-feather-icon [https://feathericons.com/]
       title: Handy Hilfe
-      content: Text Handyhilfe
-    - icon: "link"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Sound Amplifier
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "bell"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Sound Amplifier
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "monitor"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Smart Reply
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "map"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Live Caption
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "link"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Sound Amplifier
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "bell"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Sound Amplifier
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "map"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Smart Reply
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "monitor"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Live Caption
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      content: Individuelle Handyhilfe, maßgeschneidert für Senioren.
+    - icon: "users"  #icon package react-feather-icon [https://feathericons.com/]
+      title: Technik-Assistenz
+      content: Individuelle Technikhilfe, maßgeschneidert für Senioren.
+    - icon: "lock"  #icon package react-feather-icon [https://feathericons.com/]
+      title: Sicherheit
+      content: Geld-zurück-Garantie für Zufriedenheit.
+    - icon: "smile"  #icon package react-feather-icon [https://feathericons.com/]
+      title: Einfach
+      content: Fokus auf einfache und verständliche Erklärungen.
+    - icon: "home"  #icon package react-feather-icon [https://feathericons.com/]
+      title: Praxisnähe
+      content: individuelle Betreuung zu Hause oder Online.
+    - icon: "users"  #icon package react-feather-icon [https://feathericons.com/]
+      title: Computer-Schulungen
+      content: Einzel- und Gruppenunterricht für Senioren.
+    - icon: "calendar"  #icon package react-feather-icon [https://feathericons.com/]
+      title: 24h Antwort Garantie
+      content: Anfragen bis 14:00 bekommen am gleichen Tag die Antwort
+
+      
 
 #service
 service:
@@ -81,12 +77,12 @@ service:
 #testimonial
 testimonial:
   title: Our customers have nice things to say about us
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
+  description: Mario Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
   testimonial_list:
     - author: David Cameron
       avatar: "/images/users/user-5.png"
       organization: meta limited
-      rating: four
+      rating: five
       content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
     - author: David Cameron
       avatar: "/images/users/user-6.png"
